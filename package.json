@@ -1,0 +1,33 @@
+{
+  "name": "igclone-api",
+  "version": "1.0.0",
+  "description": "Instagram Clone API",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon src/server.js",
+    "dev": "nodemon src/server.js",
+    "format": "prettier --write ."
+  },
+  "author": "avi",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.41.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.0.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.1",
+    "winston": "^3.14.2",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
+}
